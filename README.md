@@ -11,9 +11,9 @@ This example shows how to make use of the SSD1306 panel driver from `esp_lcd` co
 
 ### Hardware Required
 
-* An ESP development board
-* An SSD1306 OLED LCD, with I2C interface
-* An USB cable for power supply and programming
+- An ESP development board
+- An SSD1306 OLED LCD, with I2C interface
+- An USB cable for power supply and programming
 
 ### Hardware Connection
 
@@ -40,7 +40,7 @@ Run `idf.py -p PORT build flash monitor` to build, flash and monitor the project
 
 The first time you run `idf.py` for the example will cost extra time as the build system needs to address the component dependencies and downloads the missing components from registry into `managed_components` folder.
 
-(To exit the serial monitor, type ``Ctrl-]``.)
+(To exit the serial monitor, type `Ctrl-]`.)
 
 See the [Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html) for full steps to configure and use ESP-IDF to build projects.
 
@@ -65,3 +65,7 @@ I (448) main_task: Returned from app_main()
 ## Troubleshooting
 
 For any technical queries, please open an [issue](https://github.com/espressif/esp-idf/issues) on GitHub. We will get back to you soon.
+
+## For TEX Hands on
+
+git clone: git clone --recursive https://github.com/eng-software/ComponentesESP32.git components\tex
